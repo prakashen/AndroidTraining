@@ -14,6 +14,7 @@ import com.ncit.android.prakash.androidtraining.Database.DatabaseActivity;
 import com.ncit.android.prakash.androidtraining.ListView.ListViewActivity;
 import com.ncit.android.prakash.androidtraining.SharedPreferences.SharedPreferencesActivity;
 import com.ncit.android.prakash.androidtraining.WebServices.WebServicesActivity;
+import com.ncit.android.prakash.androidtraining.WebView.WebViewActivity;
 
 
 public class Main extends Activity  implements View.OnClickListener{
@@ -84,7 +85,8 @@ public class Main extends Activity  implements View.OnClickListener{
                 startActivity(new Intent(getApplicationContext(),SharedPreferencesActivity.class));
                 break;
             case R.id.btwebview:
-                Toast.makeText(getApplicationContext(),"This is web View",Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(),"This is web View",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(getApplicationContext(),WebViewActivity.class));
                 break;
             case R.id.btWebservices:
                 //Toast.makeText(getApplicationContext(),"This is Webservices",Toast.LENGTH_LONG).show();
@@ -94,6 +96,7 @@ public class Main extends Activity  implements View.OnClickListener{
                 //Toast.makeText(getApplicationContext(),"This is Call Sample",Toast.LENGTH_LONG).show();
                 startActivity(new Intent(getApplicationContext(),CallActivity.class));
                 break;
+
 
         }
 

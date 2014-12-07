@@ -10,5 +10,6 @@
     <string name="title_activity_call">CallActivity</string>
     <string name="title_activity_shared_preferences">SharedPreferencesActivity</string>
     <string name="title_activity_web_services">WebServicesActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
 
 </resources>
