@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ncit.android.prakash.androidtraining" >
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -32,8 +33,12 @@
         </activity>
         <activity
             android:name=".Call.CallActivity"
-            android:windowSoftInputMode="stateVisible"
-            android:label="@string/title_activity_call" >
+            android:label="@string/title_activity_call"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name=".SharedPreferences.SharedPreferencesActivity"
+            android:label="@string/title_activity_shared_preferences" >
         </activity>
     </application>
 
