@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/btListview"
+
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="ListView"/>
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/btstyling"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Styling"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/btdatabase"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="Database"/>
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/btshpreferences"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="S. Pref"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/btwebview"
+
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="WebView"/>
+        <Button
+            android:layout_weight="50"
+            android:id="@+id/btWebservices"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="web services"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/btCallSample"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Call Sample"/>
+    </LinearLayout>
+
+</LinearLayout>
